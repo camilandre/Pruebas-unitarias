@@ -8,7 +8,8 @@
     "build": "vite build",
     "test": "vitest",
     "test:watch": "vitest --watch",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --watch --ui",
+    "prepare": "husky"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -16,6 +17,7 @@
     "@mui/icons-material": "^5.15.20",
     "@mui/material": "^5.15.19",
     "axios": "^1.7.2",
+    "husky": "^9.0.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "save-dev": "^0.0.1-security"
