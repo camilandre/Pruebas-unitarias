@@ -2,6 +2,7 @@ import { describe, expect, test } from "vitest";
 import { typeProject } from "../../utils/Utils";
 
 describe("Test typeProject function", () => {
+
   test("return correct project", () => {
     let result = typeProject(0);
     expect(typeof result).toBe("string");
@@ -29,4 +30,5 @@ describe("Test typeProject function", () => {
     expect(typeof result).not.toBe("number");
     expect(result).toBe("No definido");
   });
+  
 });
